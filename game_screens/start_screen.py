@@ -5,7 +5,6 @@ from components.objects import FlappyBird
 class StartScreen():
     """ The start screen of the Flappy Bird game.
     """
-
     def __init__(self,screen):
         """ Initializes the start screen.
 
