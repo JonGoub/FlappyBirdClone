@@ -5,7 +5,6 @@ from components.objects import pipe, bottom, FlappyBird
 class GameplayScreen():
     """ The gameplay screen of the Flappy Bird game.
     """
-
     def __init__(self,screen):
         """ Initializes the gameplay screen.
 
