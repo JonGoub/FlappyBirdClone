@@ -66,7 +66,7 @@ class FlappyBird():
         """ Gets the top y coordinate of the flappy bird.
 
         Returns:
-            int: Top y coordinate of the flappy bird.
+            int: The top y coordinate of the flappy bird.
         """
         return self.y 
 
@@ -74,7 +74,7 @@ class FlappyBird():
         """ Gets the bottom y coordinate of the flappy bird.
 
         Returns:
-            int: Bottom y coordinate of the flappy bird.
+            int: The bottom y coordinate of the flappy bird.
         """
         return self.y + 36
     
@@ -82,7 +82,7 @@ class FlappyBird():
         """ Gets the right x coordinate of the flappy bird.
 
         Returns:
-            int: Right x coordinate of the flappy bird.
+            int: The right x coordinate of the flappy bird.
         """
         return (self.x + 51)
     
@@ -103,7 +103,7 @@ class pipe():
 
         Args:
             x (int): The x coordinate of the pipe.
-            y (int): the y coordinate of the pipe.
+            y (int): The y coordinate of the pipe.
         """
         self.x = x 
         self.y = y
