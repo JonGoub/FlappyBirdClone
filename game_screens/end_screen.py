@@ -3,7 +3,6 @@ import time
 class EndScreen():
     """ The end screen of the Flappy Bird game.
     """
-
     def __init__(self,screen):
         """ Initializes the end screen.
 
